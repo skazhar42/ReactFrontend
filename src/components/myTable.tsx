@@ -6,7 +6,7 @@ import { ModuleRegistry, AllCommunityModule } from "ag-grid-community";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
-import CollegeAutocompleteEditor from "./CollegeAutoCompleteEditor";
+import CollegeAutocompleteEditor from "./CollegeAutocompleteEditor";
 
 import { IconButton, Box, Switch } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
@@ -109,7 +109,7 @@ const MyTable: React.FC = () => {
   ];
 
   return (
-    <div className="ag-theme-alpine" style={{ height: 400, width: 700 }}>
+    <div className="ag-theme-alpine" style={{ height: 400, width: 2000 }}>
       <AgGridReact<Student>
         rowData={rowData}
         columnDefs={columnDefs}

@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import MyTable from './components/myTable';
+// import MyTable from './components/myTable';
+import MyTable from './components/myTableWithValidators';
 
 function App() {
   return (
